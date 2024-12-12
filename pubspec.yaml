@@ -1,0 +1,141 @@
+name: apt3065
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.5.1
+  cloud_firestore: ^5.5.0
+  firebase_auth: ^5.3.3
+  firebase_storage: ^12.3.6
+  get: ^4.6.6
+  intl: ^0.19.0
+  email_validator: ^3.0.0
+  image_picker:  ^0.8.4+10
+  iconsax: ^0.0.8
+  firebase_core: ^3.8.0
+  google_sign_in: ^6.2.1
+  riverpod_annotation: ^2.3.0
+  go_router: ^14.6.0
+  google_nav_bar: ^5.0.6
+  cached_network_image: ^3.3.1
+  flutter_gemini: ^2.0.5
+  dash_chat_2: ^0.0.21
+  audioplayers: ^6.1.0
+  flutter_tts: ^4.0.2
+  video_player: ^2.9.2
+  flick_video_player: ^0.9.0
+  wave: ^0.2.2
+  chart_sparkline: ^1.0.15+1
+  flutter_sinusoidals_v2: ^0.2.3
+  rxdart: ^0.27.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.3
+  mockito: ^5.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/profile_icon.png
+    - assets/images/logo.png
+    - assets/images/microsoftLogo.png
+    - assets/images/GoogleLogo.png
+    - assets/images/landingbg.png
+    - assets/images/biology_background.jpg
+    - assets/images/chemistry_background.jpg
+    - assets/images/physics_background.jpg
+    - assets/sounds/hit_sound.mp3
+    - assets/sounds/cannon.mp3
+    - assets/images/beaker.png
+    - assets/images/3Dcell.png
+    - assets/images/periodicTable.png
+    - assets/images/photosynthesis.png
+    - assets/images/rocket.png
+    - assets/images/electricity.png
+    - assets/images/gravity.png
+    - assets/images/lawsOfMotion.png
+    - assets/images/pendulum.png
+    - assets/images/refraction.png
+    - assets/images/biologyavatar.png
+    - assets/images/chemistryavatar.png
+    - assets/images/physicsavatar.png
+    - assets/images/periodicTable1.png
+    - assets/images/gasLaws.png
+    - assets/images/dna.png
+    - assets/images/Diffusion.png
+    - assets/images/chemistry1.png
+    - assets/images/atomicStructure.png
+    - assets/images/acidBase.png
+    - assets/images/cells.png
+    - assets/images/dna.png
+    - assets/images/organSystem.png
+    - assets/images/photosynthesis1.png
+    - assets/images/skeletal.png
+    - assets/images/microscopy.png
+    - assets/images/mitosis.png
+    - assets/images/profile.png
+    
+
+
+
+
+
+
+
+
+
+  fonts: 
+    - family: Balsamiq Sans
+      fonts:
+        - asset: assets/fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf
+          weight: 100
+        - asset: assets/fonts/Balsamiq_Sans/BalsamiqSans-Bold.ttf
+          weight: 600
+    - family: QuickSand
+      fonts:
+        - asset: assets/fonts/Quicksand/Quicksand-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Quicksand/Quicksand-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Quicksand/Quicksand-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Quicksand/Quicksand-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Quicksand/Quicksand-SemiBold.ttf
+          weight: 600
+    - family: Product Sans
+      fonts:
+        - asset: assets/fonts/product_sans/Product Sans Regular.ttf
+          weight: 100
+        - asset: assets/fonts/product_sans/Product Sans Italic.ttf
+          weight: 200
+        - asset: assets/fonts/product_sans/Product Sans Bold.ttf
+          weight: 300
+        - asset: assets/fonts/product_sans/Product Sans Bold Italic.ttf
+          weight: 400
+    - family: Mona Sans
+      fonts: 
+        - asset: assets/fonts/Mona_Sans/MonaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Mona_Sans/MonaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Mona_Sans/MonaSans-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Mona_Sans/MonaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Mona_Sans/MonaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Mona_Sans/MonaSans-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Mona_Sans/MonaSans-ExtraBold.ttf
+          weight: 800
